@@ -63,21 +63,63 @@ img{
 
 }
 .header{
+    display: grid;
+    gap: 0px 15px;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     grid-column: 2/-1;
     padding: 15px;
+    font-weight: bold;
+    box-shadow: 0px 2px 2px -1px  rgba(1, 1, 1, 0.3) ;
 
 }
 input[type="text"]{
     border: 0;
     background-color: rgb(229, 229, 231);
     border-radius: 30px;
-    width: 50%;
     height: 23px;
     font-size: large;
+    width: 100%;
 }
 .search{
     display: flex;
     align-items: center;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 2.5%;
+}
+.user > img[alt="User foto"]{
+    height: 50px;
+    border-radius: 50%;
+}
+.greeting > img[alt="User foto"]{
+    height: 70px;
+    border-radius: 50%;
+}
+.greeting{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+.greeting > div > .user-name{
+    font-size: 25px;
+}
+.buttons{
+   margin:  %;
+}
+button{
+    background-color: rgb(47, 172, 255);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    border: none;
+    padding: 7px;
+    width: 70px;
+    margin: 2%;
+
 }
 main{
     
