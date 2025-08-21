@@ -34,7 +34,7 @@ body{
 }
 
 img{
-    height: 35px;
+    height: 25px;
 }
 .tittle{
     display: flex;
@@ -51,7 +51,7 @@ img{
     font-weight: bold;
     display: grid;
     grid-template-columns: 60px 1fr;
-    grid-auto-rows: 45px;
+    grid-auto-rows: 50px;
     gap: 0 15px ;
 
 }
@@ -108,7 +108,7 @@ input[type="text"]{
     font-size: 25px;
 }
 .buttons{
-   margin:  %;
+   margin:  2%;
 }
 button{
     background-color: rgb(47, 172, 255);
@@ -121,6 +121,33 @@ button{
     margin: 2%;
 
 }
-main{
-    
+.main{
+  display: grid;
+  grid-template-columns: 3fr minmax(250px, 1fr);
+  gap: 20px;
+  background-color: rgb(229, 229, 231);
+  padding: 20px;
+}
+
+.projects{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+
+}
+.project{
+    background-color: white;
+    border-left: 4px solid orange;
+    border-radius: 15px;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+}
+.icons{
+   display: flex;
+   justify-content: end;
 }
