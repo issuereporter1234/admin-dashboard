@@ -2,7 +2,9 @@
     src: url(fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
     font-family: OpenSans;
 }
-
+/* *{
+    color: grey;
+} */
 body{
     margin: 0;
     padding: 0;
@@ -85,6 +87,10 @@ input[type="text"]{
     display: flex;
     align-items: center;
 }
+a.user-name{
+    color: black;
+    text-decoration: none;
+}
 .user{
     display: flex;
     align-items: center;
@@ -124,6 +130,7 @@ button{
 .main{
   display: grid;
   grid-template-columns: 3fr minmax(250px, 1fr);
+  
   gap: 20px;
   background-color: rgb(229, 229, 231);
   padding: 20px;
@@ -151,3 +158,36 @@ button{
    display: flex;
    justify-content: end;
 }
+.bold{
+    font-weight: bold;
+    color: black;
+}
+
+.announsments{
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px;
+
+}
+.other > .bold{
+    margin: 10px;
+    padding: 10px;
+}
+
+.trending{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.trending img{
+    height: 50px;
+    border-radius: 50%;
+}
+.trending > div{
+    display: flex;
+    gap: 15px;
+    margin: 20px;
+}
+
